@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleVault", "SimpleVault\SimpleVault.csproj", "{56CA1893-A291-40CB-B91D-F8A8AC8FEEDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56CA1893-A291-40CB-B91D-F8A8AC8FEEDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56CA1893-A291-40CB-B91D-F8A8AC8FEEDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56CA1893-A291-40CB-B91D-F8A8AC8FEEDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56CA1893-A291-40CB-B91D-F8A8AC8FEEDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {94207DF8-2F7B-42F7-891C-717971B53C30}
+	EndGlobalSection
+EndGlobal
