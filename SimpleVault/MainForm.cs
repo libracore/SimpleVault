@@ -110,6 +110,8 @@ namespace SimpleVault
                 // decrypt
                 txtContent.Text = Encryption.Decrypt(filename, password);
                 isChanged = false;
+                txtContent.SelectionStart = 0;
+                txtContent.SelectionLength = 0;
             }
         }
 

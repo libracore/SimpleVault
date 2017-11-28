@@ -68,8 +68,6 @@ namespace SimpleVault
 
                 FileStream fsCrypt = new FileStream(file, FileMode.Open);
 
-                FileStream cryptedFileStream = new FileStream("EncryptedFile", FileMode.Create);
-
                 RijndaelManaged RMCrypto = new RijndaelManaged();
 
                 CryptoStream cs = new CryptoStream(fsCrypt,
